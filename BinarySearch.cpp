@@ -47,5 +47,6 @@ void bubbleshortArray()
                 element[j + 1] = temp;
             }
         }
-    }
+        pass++;
+    } while (pass <= nPanjang - 1);
 }
